@@ -27,3 +27,9 @@ if [ -z "$SSH_AUTH_SOCK" ]; then
 fi
 
 export PATH="$HOME/.config/composer/vendor/bin:$PATH"
+export PATH="$HOME/projects/llama.cpp/build/bin/":$PATH
+
+. "$HOME/.local/share/../bin/env"
+
+# opencode
+export PATH=/home/richardo/.opencode/bin:$PATH
